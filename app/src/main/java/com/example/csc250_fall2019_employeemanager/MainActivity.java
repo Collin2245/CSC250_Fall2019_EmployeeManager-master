@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         if(Core.theEmployee != null)
         {
-            Toast.makeText(this, "Received result: " + Core.theEmployee.toString() + "", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Result list size: " + Core.theEmployees.size() + "" + Core.theEmployee.toString() , Toast.LENGTH_SHORT).show();
 
         }
 

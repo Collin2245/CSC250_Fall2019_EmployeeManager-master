@@ -29,6 +29,10 @@ public class Employee
         this.weight = weight;
     }
 
+
+
+
+
     public void setFname(String fname) {
         this.fname = fname;
     }
@@ -76,4 +80,7 @@ public class Employee
     public double getWeight() {
         return weight;
     }
+
+
+
 }
